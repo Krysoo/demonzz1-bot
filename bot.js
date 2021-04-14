@@ -40,9 +40,6 @@ client.on('message', (channel, tags, message) => {
 client.on('message', (channel, tags, message) => {
     if (tags['display-name'] != "demonzzbot") return
     else {
-        if(message.includes("heist") && message.includes(user.identity.username)) {
-            console.log("Wygrałeś heist! Wygrane pkt: " + heist*2)
-        }
         if(message.includes(`${user.identity.username} (`)) {
             console.log("Wygrane pkt: " + message.match(/\d+/))
         }
