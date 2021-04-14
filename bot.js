@@ -8,7 +8,6 @@ const user = {
     },
     channels: [
         'demonzz1',
-        'kryso___reformed',
     ]
 }
 
