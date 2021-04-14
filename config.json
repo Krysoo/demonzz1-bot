@@ -1,0 +1,5 @@
+{
+    "username": "Nazwa uzytkownika",
+    "oauth": "https://twitchapps.com/tmi/ <- link do zdobycia kodu oauth",
+    "heist": "5000"
+}
