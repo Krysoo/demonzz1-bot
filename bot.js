@@ -45,7 +45,7 @@ client.on('message', (channel, tags, message) => {
             console.log("Wygrałeś heist! Wygrane pkt: " + heist*2)
         }
         if(message.includes(`${user.identity.username} (`)) {
-            console.log("Wygrane pkt: " + message.match(`${user.identity.username} ( /\d+/)`))
+            console.log("Wygrane pkt: " + message.match(/\d+/))
         }
     } 
 })
