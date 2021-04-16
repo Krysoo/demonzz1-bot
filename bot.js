@@ -41,7 +41,7 @@ client.on('message', (channel, tags, message) => {
     if (tags['display-name'] != "demonzzbot") return
     else {
         if(message.includes(`${user.identity.username} (`)) {
-            console.log("Wygrane pkt: " + message.match(/\d+/))
+            console.log("Wygrano!")
         }
     } 
 })
