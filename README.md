@@ -1,6 +1,5 @@
 ## Installation
 
-**Jeśli twój nick posiada cyfry to skrypt nie będzie działał prawidłowo, lecz dalej będzie wysyłał wiadomości**
 
 0. Pobierz node https://nodejs.org/en/download/
 1. Utworz folder dla bota 
